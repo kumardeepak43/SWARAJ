@@ -1,0 +1,391 @@
+body{
+    background-image: url(https://149494764.v2.pressablecdn.com/wp-content/uploads/2020/09/bharat-petroleum.jpg);
+    background-size: contain;
+	font: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+		width: 1050px;
+		/*border: 1px solid grey;*/
+		margin: 0px auto; 
+	
+}
+#header{
+    background-image: url(https://mylang.ebharatgas.com/bharatgas/images/gas_flame.png);
+    background-repeat: no-repeat;
+    background-color: brown;
+	height: 150px;
+	padding: 10px 0;
+    margin:  2px  auto;
+
+}
+
+#brand{
+	float:left;
+}
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	color:blue;
+	text-decoration: none;
+	
+	
+}
+
+#searchBox{
+	float: right;
+    background-image: url(image.jpg);
+	background: linear-gradient(#EAF2B9, #B7E953);
+	background: -webkit-linear-gradient(#EAF2B9, #B7E953);
+	background: -o-linear-gradient(#EAF2B9, #B7E953);
+	background: -moz-linear-gradient(#EAF2B9, #B7E953);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0 20px;
+	margin-top:20px;
+	
+}
+
+.text{
+	
+	float:left;
+	width: 200px;
+	padding: 5px;
+	font-size: 15px;
+	color: darkred;
+	background: white url(images/logo.png) right center no-repeat;
+	border: 1px double #C8D03E;
+}
+.submit{
+
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	color: greenyellow;
+	background: black;
+	font-size: 15px;
+}
+.clear{
+	clear: both;
+}
+ul{
+	list-style: none;
+}
+#menu{
+	height: 70px;
+	background: linear-gradient(#F8F594, #D5D533);
+	background: -webkit-linear-gradient(#F8F594, #D5D533);
+	background: -moz-linear-gradient(#F8F594, #D5D533);
+	background: -o-linear-gradient(#F8F594, #D5D533);
+	padding: 7px 0;
+
+}
+
+
+
+
+#menu ul li{
+	float:left;
+	padding: 0 30px;
+	height: 30px;
+	border-right: 1px double black;
+	
+}
+
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: black;
+	line-height: 30px;
+	transition: font-size 0.3s ease;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+#introduction{
+	background: linear-gradient(#E5F2BB,#B7E952);
+	background: -webkit-linear-gradient(#E5F2BB,#B7E952);
+	background: -o-linear-gradient(#E5F2BB,#B7E952);
+	background: -moz-linear-gradient(#E5F2BB,#B7E952);
+	padding: 30px;
+	margin: 16px 0;
+	
+}
+
+#introduction h3{
+	font-size: 45px;
+	color: black;
+	font-weight:normal;
+	
+}
+
+#introduction p{
+	font-size: 25px;
+	color: black;
+	text-align: justify;
+}
+
+.sidebar{
+	height: 500px;
+	width: 450px;
+	border: 1px solid royalblue;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+.sidebar h3{
+	color: rgb(14, 14, 13);
+	font-size: 30px;
+}
+#leftsidebar ul li{
+		padding:5px 0 6px 10px;
+		list-style-image: url(images/arrow.png);
+}
+#rightsidebar ul li{
+	padding: 20px 0 20px 40px;
+	background: url(images/tick.png) no-repeat left center;
+}
+
+
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+	text-decoration: none;
+	color: #C34FDB;
+	font-size: 23px;
+	font-weight: bold;
+	transition: font-size 0.3s ease;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	
+}
+
+
+#leftsidebar{
+	float: left;
+}
+#rightsidebar{
+	float: right;
+}
+
+.footer{
+	height: 60px;
+    background-image: body{
+        font: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    #container{
+            width: 1050px;
+            /*border: 1px solid grey;*/
+            margin: 0px auto;
+        
+    }
+    #header{
+        height: 100px;
+        padding: 10px 0;
+    }
+    
+    #brand{
+        float:left;
+    }
+    
+    h1 a{
+        font-size: 50px;
+        font-weight: 100;
+        color:#312833;
+        text-decoration: none;
+        
+        
+    }
+    
+    #searchBox{
+        float: right;
+        background: linear-gradient(#EAF2B9, #B7E953);
+        background: -webkit-linear-gradient(#EAF2B9, #B7E953);
+        background: -o-linear-gradient(#EAF2B9, #B7E953);
+        background: -moz-linear-gradient(#EAF2B9, #B7E953);
+        width: 400px;
+        height: 50px;
+        padding: 20px 20px 0 20px;
+        margin-top:20px;
+        
+    }
+    
+    .text{
+        
+        float:left;
+        width: 200px;
+        padding: 5px;
+        font-size: 15px;
+        color: black;
+        background: white url(images/logo.png) right center no-repeat;
+        border: 1px double #C8D03E;
+    }
+    .submit{
+    
+        float: right;
+        padding: 5px;
+        font-weight: bold;
+        color: black;
+        background: red;
+        font-size: 15px;
+    }
+    .clear{
+        clear: both;
+    }
+    ul{
+        list-style: none;
+    }
+    #menu{
+        height: 70px;
+        background: linear-gradient(#F8F594, #D5D533);
+        background: -webkit-linear-gradient(#F8F594, #D5D533);
+        background: -moz-linear-gradient(#F8F594, #D5D533);
+        background: -o-linear-gradient(#F8F594, #D5D533);
+        padding: 7px 0;
+    
+    }
+    
+    
+    
+    
+    #menu ul li{
+        float:left;
+        padding: 0 30px;
+        height: 30px;
+        border-right: 1px double #5d12e7;
+        
+    }
+    
+    #menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 17px;
+        color: #5d12e7;
+        line-height: 30px;
+        transition: font-size 0.3s ease;
+        -webkit-transition: font-size 0.3s ease;
+        -moz-transition: font-size 0.3s ease;
+        -o-transition: font-size 0.3s ease;
+        -ms-transition: font-size 0.3s ease;
+        
+    }
+    #menu ul li:last-child{
+        border-right: none;
+    }
+    
+    #menu ul li a:hover, #menu ul li a.active{
+        font-size: 20px;
+        font-weight: bold;
+        color: #C34FDB;
+    }
+    
+    #introduction{
+        background: linear-gradient(#E5F2BB,#B7E952);
+        background: -webkit-linear-gradient(#E5F2BB,#B7E952);
+        background: -o-linear-gradient(#E5F2BB,#B7E952);
+        background: -moz-linear-gradient(#E5F2BB,#B7E952);
+        padding: 30px;
+        margin: 16px 0;
+        
+    }
+    
+    #introduction h3{
+        font-size: 45px;
+        color: black;
+        font-weight:normal;
+        
+    }
+    
+    #introduction p{
+        font-size: 25px;
+        color: black;
+        text-align: justify;
+    }
+    
+    .sidebar{
+        height: 500px;
+        width: 450px;
+        border: 1px solid #BAF46F;
+        border-radius: 20px;
+        padding: 10px 30px;
+    }
+    .sidebar h3{
+        color: #312833;
+        font-size: 30px;
+    }
+    #leftsidebar ul li{
+            padding:5px 0 6px 10px;
+            list-style-image: url(images/arrow.png);
+    }
+    #rightsidebar ul li{
+        padding: 20px 0 20px 40px;
+        background: url(images/tick.png) no-repeat left center;
+    }
+    
+    
+    .sidebar ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .sidebar ul li a:hover,.sidebar ul li a.active{
+        text-decoration: none;
+        color: #C34FDB;
+        font-size: 23px;
+        font-weight: bold;
+        transition: font-size 0.3s ease;
+        -webkit-transition: font-size 0.3s ease;
+        -moz-transition: font-size 0.3s ease;
+        -o-transition: font-size 0.3s ease;
+        -ms-transition: font-size 0.3s ease;
+        
+    }
+    
+    
+    #leftsidebar{
+        float: left;
+    }
+    #rightsidebar{
+        float: right;
+    }
+    
+    .footer{
+        height: 60px;
+        background: linear-gradient(#F6F390, #D5D533);
+        background: -webkit-linear-gradient(#F6F390, #D5D533);
+        background: -moz-linear-gradient(#F6F390, #D5D533);
+        background: -o-linear-gradient(#F6F390, #D5D533);
+        padding: 10px 30px;
+        margin-top: 15px;
+    }
+	background: linear-gradient(#F6F390, #D5D533);
+	background: -webkit-linear-gradient(#F6F390, #D5D533);
+	background: -moz-linear-gradient(#F6F390, #D5D533);
+	background: -o-linear-gradient(#F6F390, #D5D533);
+	padding: 10px 30px;
+	margin-top: 15px;
+}
+
